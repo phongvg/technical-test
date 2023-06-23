@@ -1,0 +1,27 @@
+.user-box{
+    border: 1px solid #000;
+    margin-bottom: 1rem;
+}
+
+.user-profile{
+    flex-direction: column;
+}
+
+.user-avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-description{
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 1px solid;
+}
+
+.user-description p{
+    padding: 5px;
+}
